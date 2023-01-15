@@ -7,24 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx serve public/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CMCRobotics/calico-starter.git"
-  },
   "keywords": [
     "calico",
     "inkjs",
     "ink",
     "inkle",
     "interactive",
-    "fiction"
+    "fiction",
+    "calico-starter"
   ],
-  "author": "B. Copy",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CMCRobotics/calico-starter/issues"
-  },
-  "homepage": "https://github.com/CMCRobotics/calico-starter#readme",
   "dependencies": {
     "serve": "^14.1.2"
   }

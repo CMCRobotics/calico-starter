@@ -10,17 +10,21 @@ Open a shell and invoke :
 ```bash
 npm init using cmcrobotics/calico-starter my-calico-project
 cd my-calico-project
+# Update the package name and other properties...
+npm init
+# Install required packages
 npm install
-npm run server
+# Run a local static web server (for a live server, see instructions below)
+npm start
 ```
 
 Of course, you're expected to replace ``my-calico-project`` by the name of your new project.
 
-Next, start developing your new project.
+Next, you can start developing your new project.
 
 ## How to develop your story
 
-At this point, you can start a live web server that will automatically refresh the browser window whenever you change your story or any of the project files.
+At this point, you can start a **live** web server that will automatically refresh the browser window whenever you change your story or any of the project files.
 
 This project comes pre-configured with [Five Server](https://www.npmjs.com/package/five-server).
 
@@ -39,7 +43,6 @@ $ five-server
 For more details about **Five Server**, please refer to [its documentation](https://www.npmjs.com/package/five-server).
 
 Any modification to your ``story.ink`` will automatically trigger an update of the web rendering.
-
 
 ## To go further
 
