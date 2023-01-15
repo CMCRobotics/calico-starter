@@ -1,0 +1,6 @@
+{
+  "port": 8085,
+  "root": "public",
+  "open": "index.html",
+  "watch": "public"
+}
